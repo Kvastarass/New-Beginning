@@ -25,13 +25,17 @@ input:not([type="checkbox"]) {
   width: 300px;
 }
 
+.checkbox-wrapper {
+  margin: 0 10px 0 0;
+}
+
 input {
   margin-bottom: 20px;
 }
 
 fieldset {
   align-items: center;
-  border: 5px solid aquamarine;
+  border: 5px inset aquamarine;
 }
 
 legend {
@@ -63,14 +67,6 @@ textarea {
   margin-bottom: 10px;
 }
 
-input[type="checkbox"] {
-  accent-color: plum;
-  width: 20px;
-  height: 20px;
-  margin: 0 10px 0 0;
-
-}
-
 .text-huge {
   font-size: 64px;
 }
@@ -99,7 +95,7 @@ input[type="checkbox"] {
 .profile-pic {
   max-width: 400px;
   max-height: 800px;
-  border: 5px solid aquamarine;
+  border: 5px inset aquamarine;
   padding: 5px;
   background-color: plum;
 }
@@ -107,9 +103,15 @@ input[type="checkbox"] {
 .btn {
   background-color: plum;
   border-color: aquamarine;
+  border-style: inset;
   font-family: "New Amsterdam", Arial, Helvetica, sans-serif;
   font-size: 48px;
   width: 140px;
   border-width: 5px;
   margin-bottom: 20px;
 }
+
+.btn:hover {
+  background-color: rgb(173, 125, 173);
+}
+

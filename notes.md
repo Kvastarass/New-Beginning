@@ -1,4 +1,4 @@
-# vitya's landing side project
+# Vitya's landing side project
 
 ## Introduction
 - This is a landing page for Vitya's side project.
