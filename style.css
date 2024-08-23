@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "New Amsterdam", Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(blanchedalmond, #f0f0f0);
+}
+
+main {
+  max-width: 1060px;
+}
+
+textarea,
+input {
+  border-width: 5px;
+  border-color: aquamarine;
+  border-style: inset;
+  background-color: plum;
+  font-family: "New Amsterdam", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+input:not([type="checkbox"]) {
+  width: 300px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  align-items: center;
+  border: 5px solid aquamarine;
+}
+
+legend {
+  font-size: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.info {
+  text-align: justify;
+  margin: 0 auto;
+  padding: 0 5px;
+  font-size: 24px;
+}
+
+.spam {
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  accent-color: plum;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+
+}
+
+.text-huge {
+  font-size: 64px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.mb-20 {
+  margin-bottom: 50px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  max-width: 400px;
+  max-height: 800px;
+  border: 5px solid aquamarine;
+  padding: 5px;
+  background-color: plum;
+}
+
+.btn {
+  background-color: plum;
+  border-color: aquamarine;
+  font-family: "New Amsterdam", Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  width: 140px;
+  border-width: 5px;
+  margin-bottom: 20px;
+}
