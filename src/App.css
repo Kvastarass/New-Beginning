@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -109,7 +111,7 @@ textarea {
   border-style: inset;
   font-family: "New Amsterdam", Arial, Helvetica, sans-serif;
   font-size: 48px;
-  width: 140px;
+  min-width: 140px;
   border-width: 5px;
   margin-bottom: 20px;
 }
@@ -118,3 +120,64 @@ textarea {
   background-color: rgb(173, 125, 173);
 }
 
+.hidden {
+  display: none;
+}
+
+.contact-us-container {
+  background-color: rgba(255, 235, 205, 0.726);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.contact-us {
+  background-image: linear-gradient(blanchedalmond, #f0f0f0);
+  max-width: 400px;
+  position: relative;
+}
+
+.close-contact-btn {
+  position: absolute;
+  top: -22px;
+  right: -50px;
+  background-color: aquamarine;
+  border: 5px solid plum;
+  border-style: inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.close-contact-btn:hover {
+  background-color: rgb(94, 188, 157);
+  color: rgb(255, 0, 0);
+}
+
+.deg45 {
+  display: flex;
+  top: 0;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+}
