@@ -1,0 +1,11 @@
+{
+  "title": "Vitya's website content from some piece of file",
+  "paragraph": "This is a paragraph from the server, that Vitya is going to use in his website. Vitya took this directly from the server by using an API.",
+  "contactUsLabels": {
+    "title": "Contact us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  }
+}
