@@ -24,7 +24,7 @@ export const wrapInDocument = (content: string) => {
       </style>
     </head>
     <body>
-      ${content.replace(/\n/g, '<br>')}
+      ${content}
     </body>
   </html>
   `;
